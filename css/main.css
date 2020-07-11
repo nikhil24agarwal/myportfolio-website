@@ -1,0 +1,92 @@
+
+ .myimage{
+    position: absolute;
+    top: 270px;
+    left: 650px;
+    width: 220px;
+    height: 220px;
+    z-index: 10;
+
+}
+
+.aboutme{
+    width: 200px;
+    position: absolute;
+    top: 270px;
+    left: 655px;
+}
+.education{
+    position: absolute;
+    top: 270px;
+    left: 655px;
+}
+.experience{
+    position: absolute;
+    top: 270px;
+    left: 655px;
+}
+.skills{
+    position: absolute;
+    top: 270px;
+    left: 655px;
+}
+.projects{
+    position: absolute;
+    top: 270px;
+    left: 655px;
+}
+.achievements{
+    position: absolute;
+    top: 270px;
+    left: 655px;
+}
+
+.git{
+   width: 100px;
+   height: 100px;
+   margin-top: 30px;
+   margin-left: 500px;
+   margin-right: 300px;
+}
+.linkedin{
+width: 100px;
+   height: 100px;
+}
+.gito{
+position: absolute;
+    top: 290px;
+    left: 750px;
+    width: 100px;
+   height: 100px;
+}
+.linkedino{
+position: absolute;
+    top: 290px;
+    left: 750px;
+    width: 100px;
+   height: 100px;
+}
+a{
+   background-color: white;
+}
+
+.circle1{
+height: 5px;
+width: 5px;
+position:absolute;
+top: 690px;
+left:100px;
+border-radius: 50%;
+background-color: white;
+border-radius:50%;
+}
+.circle2{
+height: 5px;
+width: 5px;
+position:absolute;
+top: 690px;
+left:1400px;
+border-radius: 50%;
+background-color: white;
+border-radius:50%;
+}
