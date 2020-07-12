@@ -10,34 +10,33 @@
 }
 
 .aboutme{
-    width: 200px;
     position: absolute;
-    top: 270px;
+    top: 275px;
     left: 655px;
 }
 .education{
     position: absolute;
-    top: 270px;
+    top: 275px;
     left: 655px;
 }
 .experience{
     position: absolute;
-    top: 270px;
+    top: 275px;
     left: 655px;
 }
 .skills{
     position: absolute;
-    top: 270px;
+    top: 275px;
     left: 655px;
 }
 .projects{
     position: absolute;
-    top: 270px;
+    top: 275px;
     left: 655px;
 }
 .achievements{
     position: absolute;
-    top: 270px;
+    top: 275px;
     left: 655px;
 }
 
