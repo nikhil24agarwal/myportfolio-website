@@ -89,3 +89,50 @@ border-radius: 50%;
 background-color: white;
 border-radius:50%;
 }
+
+.aboutme #i1{
+    
+    height: 190px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 50%;
+  
+  
+        }
+  
+        .education #i2{
+          height: 190px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 50%;
+        }
+  
+      
+      .skills #i3{
+          height: 190px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 50%;
+        }
+        .experience #i4{
+          height: 190px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 50%;
+        }
+  
+  
+      .projects #i5{
+          height: 190px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 50%;
+        }
+  
+        .achievements #i6{
+          height: 190px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 50%;
+        }
+        

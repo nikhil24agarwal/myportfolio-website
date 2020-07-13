@@ -14,52 +14,19 @@
   <script type="text/javascript" src="js/click.js">
   </script>
   <style>
-      .aboutme #i1{
-    
-  height: 190px;
-  width: 190px;
-  background-color: #fff;
-  border-radius: 50%;
-
-
+      .aboutmec{
+          position: absolute;
+          top: 30px;
+          left: 620px;
+          color: white;
       }
-
-      .education #i2{
-        height: 190px;
-  width: 190px;
-  background-color: #fff;
-  border-radius: 50%;
+      .cheading{
+          font-size: 3.5rem;
       }
-
-    
-    .skills #i3{
-        height: 190px;
-  width: 190px;
-  background-color: #fff;
-  border-radius: 50%;
+      .hrline:hover{
+          transform: scaleX(10);
+          transition-duration: 3s;
       }
-      .experience #i4{
-        height: 190px;
-  width: 190px;
-  background-color: #fff;
-  border-radius: 50%;
-      }
-
-
-    .projects #i5{
-        height: 190px;
-  width: 190px;
-  background-color: #fff;
-  border-radius: 50%;
-      }
-
-      .achievements #i6{
-        height: 190px;
-  width: 190px;
-  background-color: #fff;
-  border-radius: 50%;
-      }
-      
     
       
   </style>
@@ -110,121 +77,35 @@
 
     <div class="achievements" >
         <div id=i6></div>
-    
+    </div>
+
 
     </div>
-    <!-- <div id="triangle-bottomleft">
-
-    </div> -->
     <div class="circle1">
 
     </div>
     <div class="circle2">
 
     </div>
-    <!-- <button onclick="a()">clcik</button> -->
-    
-    
+
     <a href="https://github.com/nikhil24agarwal"><img class="gito" src="github-brands.svg"></a>
-            <a href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  class="linkedino" src="linkedin-brands.svg"></a>
+    <a href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  class="linkedino" src="linkedin-brands.svg"></a>
+
+
+
+    <!-- content -->
+<!-- about me  -->
+<div class="aboutmec">
+    <h1 class="cheading" style="margin-bottom: 0;">About me</h1>
+    <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
+</div>
+
+
+
            
     <script src="https://kit.fontawesome.com/5696cdf38b.js" crossorigin="anonymous"></script>
 </body>
 <script>
-       $("document").ready(function(){  
-           $(".myimage").click(function(){
-                   $(".aboutme").css({"transform":"translate(200px,-200px)","transition-duration":"1.5s","transition-delay":"0.5s"});
-                   $(".education").css({"transform":"translateX(350px)","transition-duration":"1.5s","transition-delay":"1s"});
-                   $(".skills").css({"transform":"translate(200px,200px)","transition-duration":"1.5s","transition-delay":"1.5s"});
-                   $(".experience").css({"transform":"translate(-200px,200px)","transition-duration":"1.5s","transition-delay":"2s"});
-                   $(".projects").css({"transform":"translateX(-350px)","transition-duration":"1.5s","transition-delay":"2.5s"});
-                   $(".achievements").css({"transform":"translate(-200px,-200px)","transition-duration":"1.5s"});
-                    $(".gito").css({"transform":"translate(600px,350px)","transition-duration":"1.5s","transition-delay":"3s"});
-                   $(".linkedino").css({"transform":"translate(-700px,350px)","transition-duration":"1.5s","transition-delay":"2.5s"});
-                $(".circle1").css({"transform":"scale(30, 30)","transition-duration":"1.5s","transition-delay":"4.5s"});
-                $(".circle2").css({"transform":"scale(30, 30)","transition-duration":"1.5s","transition-delay":"4.5s"});
-
-
-      
-
-                });
-
-            });
-            
-                    // image sizing and position after clicking
-                function image(){                        
-        $(".myimage").css({"transform":"scale(0.6,0.6) translate(-40px,-430px)","transition-duration":"5s"});
-        // $(".myimage").css({"transform":"translateY(200px)"});
-
-    }
-
-    // function a(){
-    //     $(".aboutme").css({"transform":"translate(-700px,-280px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    //                $(".education").css({"transform":"translate(-700px,-200px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    //                $(".skills").css({"transform":"translate(-700px,-120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    //                $(".experience").css({"transform":"translate(-700px,-40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    //                $(".projects").css({"transform":"translate(-700px,40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    //                $(".achievements").css({"transform":"translate(-700px,120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    // }
-    
-
-    $("#i1").click(function(){
-        $(".myimage").css({"transform":"scale(0.6,0.6) translate(-40px,-430px)","transition-duration":"5s"});
-        $(".education").css({"transform":"translate(-700px,-200px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".skills").css({"transform":"translate(-700px,-120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".experience").css({"transform":"translate(-700px,-40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".projects").css({"transform":"translate(-700px,40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".achievements").css({"transform":"translate(-700px,120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    });
-
-
-    $("#i2").click(function(){
-        image();
-        $(".aboutme").css({"transform":"translate(-700px,-280px) scale(0.3,0.3)","transition-duration":"1.5s"});
-        $(".skills").css({"transform":"translate(-700px,-120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".experience").css({"transform":"translate(-700px,-40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".projects").css({"transform":"translate(-700px,40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".achievements").css({"transform":"translate(-700px,120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    });
-
-    $("#i3").click(function(){
-        image();
-        $(".aboutme").css({"transform":"translate(-700px,-280px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".education").css({"transform":"translate(-700px,-200px) scale(0.3,0.3)","transition-duration":"1.5s"});
-        $(".experience").css({"transform":"translate(-700px,-40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".projects").css({"transform":"translate(-700px,40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".achievements").css({"transform":"translate(-700px,120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    
-    });
-
-    $("#i4").click(function(){
-        image();
-        $(".aboutme").css({"transform":"translate(-700px,-280px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".education").css({"transform":"translate(-700px,-200px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".skills").css({"transform":"translate(-700px,-120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".projects").css({"transform":"translate(-700px,40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".achievements").css({"transform":"translate(-700px,120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    });
-    $("#i5").click(function(){
-        image();
-        $(".aboutme").css({"transform":"translate(-700px,-280px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".education").css({"transform":"translate(-700px,-200px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".skills").css({"transform":"translate(-700px,-120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".experience").css({"transform":"translate(-700px,-40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".achievements").css({"transform":"translate(-700px,120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    });
-    $("#i6").click(function(){
-        image();
-        $(".aboutme").css({"transform":"translate(-700px,-280px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".education").css({"transform":"translate(-700px,-200px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".skills").css({"transform":"translate(-700px,-120px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".experience").css({"transform":"translate(-700px,-40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-                   $(".projects").css({"transform":"translate(-700px,40px) scale(0.3,0.3)","transition-duration":"1.5s"});
-    });
-    
-   
-
-    
 
 </script>
 </html>
