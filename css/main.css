@@ -136,3 +136,539 @@ border-radius:50%;
     border-radius: 50%;
         }
         
+
+
+
+        /* education 0*/
+
+        .educationn{
+            position: absolute;
+              top: 30px;
+              left: 620px;
+              color: white;
+              visibility:hidden;
+          }
+          .X{
+              color: #fff;
+            position: absolute;
+              top: 200px;
+              left: 170px;
+              line-height: 1.5;
+              letter-spacing: 0.2rem;
+              font-size: 1.9rem;
+              visibility: hidden;
+          }
+          .X a{
+              text-decoration: none;
+          }
+          .XII{
+              color: #fff;
+            position: absolute;
+              top: 200px;
+              left: 850px;
+              line-height: 1.5;
+              letter-spacing: 0.2rem;
+              font-size: 1.9rem;
+              visibility: hidden;
+          }
+          .XII a{
+              text-decoration: none;
+          }
+          .Bachelors{
+              color: #fff;
+            position: absolute;
+              top: 400px;
+              left: 500px;
+              line-height: 1.5;
+              letter-spacing: 0.2rem;
+              font-size: 1.9rem;
+              visibility: hidden;
+          }
+          .Bachelors a{
+              text-decoration: none;
+          }
+    
+
+
+
+          /* skills   */
+
+
+          
+      .skillss{
+        position: absolute;
+          top: 30px;
+          left: 620px;
+          color: white;
+          letter-spacing: .3rem;
+          visibility:hidden;
+      }
+      @keyframes linemovee{
+        from{transform: scaleX(1);
+            transform-origin:bottom left;
+            }
+        to{transform: scaleX(7);
+            transform-origin:bottom left;
+        }
+        
+      }
+      .hrlinee{
+          animation-name: linemovee;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+      }
+      .python{
+        
+          color: #fff;
+        position: absolute;
+          top: 200px;
+          left: 190px;
+          line-height: 1.5;
+          letter-spacing: 0.1rem;
+          font-size: 1.9rem;
+          visibility: hidden;
+      
+      }
+      .pythonh{
+          font-weight: 1000;
+      }
+      .pythonb{
+          width: 300px;
+          border-radius: 5%;
+          height:20px ;
+          background-color: white;
+       
+      }
+      @keyframes python{
+        from{transform: scaleX(1);
+            transform-origin:bottom left;
+            }
+        to{transform: scaleX(300);
+            transform-origin:bottom left;
+        }
+        
+      }
+
+      .fillp{
+          background-color:orange;
+          height: 20px;
+          width: 1px;
+        animation-name: python;
+          animation-duration: 4s;
+          animation-fill-mode: forwards;
+          /* animation-iteration-count: 1; */
+
+      }
+
+      .java{
+        
+        color: #fff;
+      position: absolute;
+        top: 200px;
+        left: 700px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        visibility: hidden;
+    
+    }
+    .javah{
+        font-weight: 1000;
+    }
+    .javab{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes java{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(270);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillj{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: java;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+
+    }
+
+
+
+
+
+
+    .MySql{
+        
+        color: #fff;
+      position: absolute;
+        top: 300px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        visibility: hidden;
+    
+    }
+    .MySqlh{
+        font-weight: 1000;
+    }
+    .MySqlb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes MySql{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillM{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: MySql;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .html{
+      
+      color: #fff;
+    position: absolute;
+      top: 300px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      visibility: hidden;
+  
+  }
+  .htmlh{
+      font-weight: 1000;
+  }
+  .htmlb{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes html{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .fillh{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: html;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+
+
+
+
+
+
+
+
+
+  .css{
+        
+        color: #fff;
+      position: absolute;
+        top: 400px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        visibility: hidden;
+    
+    }
+    .cssh{
+        font-weight: 1000;
+    }
+    .cssb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes css{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillc{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: css;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .js{
+      
+      color: #fff;
+    position: absolute;
+      top: 400px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      visibility: hidden;
+  
+  }
+  .jsh{
+      font-weight: 1000;
+  }
+  .jsb{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes js{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .fillj{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: js;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+
+
+
+  .bs{
+        
+        color: #fff;
+      position: absolute;
+        top: 500px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        visibility: hidden;
+    
+    }
+    .bsh{
+        font-weight: 1000;
+    }
+    .bsb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes bs{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillbs{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: bs;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .jq{
+      
+      color: #fff;
+    position: absolute;
+      top: 500px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      visibility: hidden;
+  
+  }
+  .jqh{
+      font-weight: 1000;
+  }
+  .jqb{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes jq{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .filljq{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: jq;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+
+
+
+
+
+
+
+
+  
+  .njs{
+        
+        color: #fff;
+      position: absolute;
+        top: 600px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        visibility: hidden;
+    
+    }
+    .njsh{
+        font-weight: 1000;
+    }
+    .njsb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes njs{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillnjs{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: njs;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .ci{
+      
+      color: #fff;
+    position: absolute;
+      top: 600px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      visibility: hidden;
+  
+  }
+  .cih{
+      font-weight: 1000;
+  }
+  .cib{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes ci{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .fillci{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: ci;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+
+
+  

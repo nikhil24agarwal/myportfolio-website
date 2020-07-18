@@ -39,6 +39,13 @@ $("#i1").click(function(){
                $(".experience").css({"transform":"translate(-700px,10px) scale(0.3,0.3)","transition-duration":"1.5s"});
                $(".projects").css({"transform":"translate(-700px,90px) scale(0.3,0.3)","transition-duration":"1.5s"});
                $(".achievements").css({"transform":"translate(-700px,170px) scale(0.3,0.3)","transition-duration":"1.5s"});
+       
+               $(".education").css({"visibility":"visible"});
+               $(".X").css({"visibility":"visible"});
+                  
+    $(".XII").css({"visibility":"visible"});
+    $(".Bachelors").css({"visibility":"visible"});
+
    });
    
    $("#i3").click(function(){
@@ -49,6 +56,20 @@ $("#i1").click(function(){
                $(".experience").css({"transform":"translate(-700px,10px) scale(0.3,0.3)","transition-duration":"1.5s"});
                $(".projects").css({"transform":"translate(-700px,90px) scale(0.3,0.3)","transition-duration":"1.5s"});
                $(".achievements").css({"transform":"translate(-700px,170px) scale(0.3,0.3)","transition-duration":"1.5s"});
+
+           
+    $(".skillss").css({"visibility":"visible"});
+    $(".python").css({"visibility":"visible"});   
+    $(".java").css({"visibility":"visible","animation-name":"java","animation-iteration-count":"infinite"});
+    $(".MySql").css({"visibility":"visible"});   
+    $(".html").css({"visibility":"visible"});
+    $(".css").css({"visibility":"visible"});   
+    $(".js").css({"visibility":"visible"});
+    $(".bs").css({"visibility":"visible"});   
+    $(".jq").css({"visibility":"visible"});
+    $(".njs").css({"visibility":"visible"});
+       
+    $(".ci").css({"visibility":"visible"});
    });
    
    $("#i4").click(function(){
