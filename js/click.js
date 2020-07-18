@@ -17,13 +17,18 @@ $("document").ready(function(){
 $("#i1").click(function(){
     image();
     $(".aboutme").css({"transform":"translate(-700px,-230px) scale(0.3,0.3)","transition-duration":"1.5s"});
-               $(".education").css({"transform":"translate(-700px,-150px) scale(0.3,0.3)","transition-duration":"1.5s"});
-               $(".skills").css({"transform":"translate(-700px,-70px) scale(0.3,0.3)","transition-duration":"1.5s"});
-               $(".experience").css({"transform":"translate(-700px,10px) scale(0.3,0.3)","transition-duration":"1.5s"});
-               $(".projects").css({"transform":"translate(-700px,90px) scale(0.3,0.3)","transition-duration":"1.5s"});
-               $(".achievements").css({"transform":"translate(-700px,170px) scale(0.3,0.3)","transition-duration":"1.5s"});
+    $(".education").css({"transform":"translate(-700px,-150px) scale(0.3,0.3)","transition-duration":"1.5s"});
+    $(".skills").css({"transform":"translate(-700px,-70px) scale(0.3,0.3)","transition-duration":"1.5s"});
+    $(".experience").css({"transform":"translate(-700px,10px) scale(0.3,0.3)","transition-duration":"1.5s"});
+    $(".projects").css({"transform":"translate(-700px,90px) scale(0.3,0.3)","transition-duration":"1.5s"});
+    $(".achievements").css({"transform":"translate(-700px,170px) scale(0.3,0.3)","transition-duration":"1.5s"});
    
+    $(".aboutmec").css({"visibility":"visible"});
+    $(".aboutmeh").css({"visibility":"visible"});
+            
    });
+
+
    
    
    $("#i2").click(function(){

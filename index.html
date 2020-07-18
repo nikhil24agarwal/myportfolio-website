@@ -14,19 +14,568 @@
   <script type="text/javascript" src="js/click.js">
   </script>
   <style>
+      @keyframes linemove{
+        from{transform: scaleX(1);
+            transform-origin:bottom left;
+            }
+        to{transform: scaleX(10);
+            transform-origin:bottom left;
+        }
+        
+      }
+      .hrline{
+          animation-name: linemove;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+      }
       .aboutmec{
           position: absolute;
           top: 30px;
           left: 620px;
           color: white;
+          visibility:hidden;
       }
       .cheading{
           font-size: 3.5rem;
       }
-      .hrline:hover{
-          transform: scaleX(10);
-          transition-duration: 3s;
+    
+      .aboutmeh{
+        position: absolute;
+          top: 200px;
+          left: 170px;
+          line-height: 1.5;
+          font-size: 3rem;
+          visibility: hidden;
       }
+
+      .educationn{
+        position: absolute;
+          top: 30px;
+          left: 620px;
+          color: white;
+          visibility:hidden;
+      }
+      .X{
+          color: #fff;
+        position: absolute;
+          top: 200px;
+          left: 170px;
+          line-height: 1.5;
+          letter-spacing: 0.2rem;
+          font-size: 1.9rem;
+          visibility: hidden;
+      }
+      .X a{
+          text-decoration: none;
+      }
+      .XII{
+          color: #fff;
+        position: absolute;
+          top: 200px;
+          left: 850px;
+          line-height: 1.5;
+          letter-spacing: 0.2rem;
+          font-size: 1.9rem;
+          visibility: hidden;
+      }
+      .XII a{
+          text-decoration: none;
+      }
+      .Bachelors{
+          color: #fff;
+        position: absolute;
+          top: 400px;
+          left: 500px;
+          line-height: 1.5;
+          letter-spacing: 0.2rem;
+          font-size: 1.9rem;
+          visibility: hidden;
+      }
+      .Bachelors a{
+          text-decoration: none;
+      }
+
+
+
+
+
+
+      .skillss{
+        position: absolute;
+          top: 30px;
+          left: 620px;
+          color: white;
+          letter-spacing: .3rem;
+          /* visibility:hidden; */
+      }
+      @keyframes linemovee{
+        from{transform: scaleX(1);
+            transform-origin:bottom left;
+            }
+        to{transform: scaleX(7);
+            transform-origin:bottom left;
+        }
+        
+      }
+      .hrlinee{
+          animation-name: linemovee;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+      }
+      .python{
+        
+          color: #fff;
+        position: absolute;
+          top: 200px;
+          left: 190px;
+          line-height: 1.5;
+          letter-spacing: 0.1rem;
+          font-size: 1.9rem;
+          /* visibility: hidden; */
+      
+      }
+      .pythonh{
+          font-weight: 1000;
+      }
+      .pythonb{
+          width: 300px;
+          border-radius: 5%;
+          height:20px ;
+          background-color: white;
+       
+      }
+      @keyframes python{
+        from{transform: scaleX(1);
+            transform-origin:bottom left;
+            }
+        to{transform: scaleX(300);
+            transform-origin:bottom left;
+        }
+        
+      }
+
+      .fillp{
+          background-color:orange;
+          height: 20px;
+          width: 1px;
+        animation-name: python;
+          animation-duration: 4s;
+          animation-fill-mode: forwards;
+          /* animation-iteration-count: 1; */
+
+      }
+
+      .java{
+        
+        color: #fff;
+      position: absolute;
+        top: 200px;
+        left: 700px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        /* visibility: hidden; */
+    
+    }
+    .javah{
+        font-weight: 1000;
+    }
+    .javab{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes java{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(270);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillj{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: java;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+
+
+
+
+
+    .MySql{
+        
+        color: #fff;
+      position: absolute;
+        top: 300px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        /* visibility: hidden; */
+    
+    }
+    .MySqlh{
+        font-weight: 1000;
+    }
+    .MySqlb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes MySql{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillM{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: MySql;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .html{
+      
+      color: #fff;
+    position: absolute;
+      top: 300px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      /* visibility: hidden; */
+  
+  }
+  .htmlh{
+      font-weight: 1000;
+  }
+  .htmlb{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes html{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .fillh{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: html;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+
+
+
+
+
+
+
+
+
+  .css{
+        
+        color: #fff;
+      position: absolute;
+        top: 400px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        /* visibility: hidden; */
+    
+    }
+    .cssh{
+        font-weight: 1000;
+    }
+    .cssb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes css{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillc{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: css;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .js{
+      
+      color: #fff;
+    position: absolute;
+      top: 400px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      /* visibility: hidden; */
+  
+  }
+  .jsh{
+      font-weight: 1000;
+  }
+  .jsb{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes js{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .fillj{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: js;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+
+
+
+  .bs{
+        
+        color: #fff;
+      position: absolute;
+        top: 500px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        /* visibility: hidden; */
+    
+    }
+    .bsh{
+        font-weight: 1000;
+    }
+    .bsb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes bs{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillbs{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: bs;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .jq{
+      
+      color: #fff;
+    position: absolute;
+      top: 500px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      /* visibility: hidden; */
+  
+  }
+  .jqh{
+      font-weight: 1000;
+  }
+  .jqb{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes jq{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .filljq{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: jq;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+
+
+
+
+
+
+
+
+  
+  .njs{
+        
+        color: #fff;
+      position: absolute;
+        top: 600px;
+        left: 190px;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+        font-size: 1.9rem;
+        /* visibility: hidden; */
+    
+    }
+    .njsh{
+        font-weight: 1000;
+    }
+    .njsb{
+        width: 300px;
+        border-radius: 5%;
+        height:20px ;
+        background-color: white;
+     
+    }
+    @keyframes njs{
+      from{transform: scaleX(1);
+          transform-origin:bottom left;
+          }
+      to{transform: scaleX(250);
+          transform-origin:bottom left;
+      }
+      
+    }
+
+    .fillnjs{
+        background-color:orange;
+        height: 20px;
+        width: 1px;
+      animation-name: njs;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        /* animation-iteration-count: 1; */
+
+    }
+
+    .ci{
+      
+      color: #fff;
+    position: absolute;
+      top: 600px;
+      left: 700px;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+      font-size: 1.9rem;
+      /* visibility: hidden; */
+  
+  }
+  .cih{
+      font-weight: 1000;
+  }
+  .cib{
+      width: 300px;
+      border-radius: 5%;
+      height:20px ;
+      background-color: white;
+   
+  }
+  @keyframes ci{
+    from{transform: scaleX(1);
+        transform-origin:bottom left;
+        }
+    to{transform: scaleX(320);
+        transform-origin:bottom left;
+    }
+    
+  }
+
+  .fillci{
+      background-color:orange;
+      height: 20px;
+      width: 1px;
+    animation-name: ci;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      /* animation-iteration-count: 1; */
+
+  }
+      
+      
     
       
   </style>
@@ -42,7 +591,7 @@
     setInterval(updateGradient,9);</script>
     </section>
     </div>
-    <img class="myimage animate__animated  animate__heartBeat animate__delay-1s" src="mine.png">
+    <!-- <img class="myimage animate__animated  animate__heartBeat animate__delay-1s" src="mine.png">
     
     
     <div class="aboutme">
@@ -90,17 +639,115 @@
 
     <a href="https://github.com/nikhil24agarwal"><img class="gito" src="github-brands.svg"></a>
     <a href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  class="linkedino" src="linkedin-brands.svg"></a>
-
+ -->
 
 
     <!-- content -->
 <!-- about me  -->
 <div class="aboutmec">
-    <h1 class="cheading" style="margin-bottom: 0;">About me</h1>
+    <h1 class="cheading" style="margin-bottom: 0; ">About me</h1>
     <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
+</div>
+<div class="aboutmeh" style="color: #fff;">
+    Hey, I am Nikhil Agarwal persuing Btech(2018-22) from Bennett University.<br>
+    I am an average programmer with good problem solving skills.<br>
+    I believe in living life in flow and learning from each moment of it. 
 </div>
 
 
+   <!-- education  -->
+<div class="educationn">
+    <h1 class="cheading" style="margin-bottom: 0; ">Education</h1>
+    <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
+</div>
+<div class="X">
+    <b style="font-size: 2.5rem;">X (Secondary)</b><br>
+    The Rajasthan International School<br>
+    CGPA : 9.8<br>
+    <!-- Website:<a href="http://therajasthanschool.edu.in/">http://therajasthanschool.edu.in/</a>  -->
+</div>
+<div class="XII">
+    <b style="font-size: 2.5rem;">XII (Primary)</b><br>
+    S. R. Public Sen. Sec. School<br>
+    Percentage(PCM) : 89%<br>
+    <!-- Website:<a href="https://www.srpublicschool.edu.in/">https://www.srpublicschool.edu.in/</a>  -->
+</div>
+<div class="Bachelors">
+    <b style="font-size: 2.5rem;">Bachelors</b><br>
+    Bennett University(Times of India Group)<br>
+    Last SGPA:9.82<br>
+    Current CGPA: 8.72<br>
+    <!-- Website:<a href="https://www.srpublicschool.edu.in/">https://www.srpublicschool.edu.in/</a>  -->
+</div>
+
+
+   <!-- skills  -->
+
+<div class="skillss">
+    <h1 class="cheading" style="margin-bottom: 0; ">Skills</h1>
+    <div class="hrlinee" style="background-color: white;height:5px;width:20px ;"></div>
+</div>
+<div class="python">
+    <div class="pythonh">Python</div>
+    <div class="pythonb">
+        <div class="fillp"></div>
+    </div>
+</div>
+<div class="java">
+    <div class="javah">Java</div>
+    <div class="javab">
+        <div class="fillj"></div>
+    </div>
+</div>
+<div class="MySql">
+    <div class="MySqlh">MySql</div>
+    <div class="MySqlb">
+        <div class="fillM"></div>
+    </div>
+</div>
+<div class="html">
+    <div class="htmlh">HTML</div>
+    <div class="htmlb">
+        <div class="fillh"></div>
+    </div>
+</div>
+
+<div class="css">
+    <div class="cssh">CSS</div>
+    <div class="cssb">
+        <div class="fillc"></div>
+    </div>
+</div>
+<div class="js">
+    <div class="jsh">JAVASCRIPT</div>
+    <div class="jsb">
+        <div class="fillj"></div>
+    </div>
+</div>
+<div class="bs">
+    <div class="bsh">BOOTSTRAP</div>
+    <div class="bsb">
+        <div class="fillbs"></div>
+    </div>
+</div>
+<div class="jq">
+    <div class="jqh">JQUERY</div>
+    <div class="jqb">
+        <div class="filljq"></div>
+    </div>
+</div>
+<div class="njs">
+    <div class="njsh">NodeJs</div>
+    <div class="njsb">
+        <div class="fillnjs"></div>
+    </div>
+</div>
+<div class="ci">
+    <div class="cih">CODEIGNITER</div>
+    <div class="cib">
+        <div class="fillci"></div>
+    </div>
+</div>
 
            
     <script src="https://kit.fontawesome.com/5696cdf38b.js" crossorigin="anonymous"></script>
