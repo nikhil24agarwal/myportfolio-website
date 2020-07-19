@@ -671,4 +671,104 @@ border-radius:50%;
   }
 
 
+
+     /* experience   */
+
+     .experiencee{
+        position: absolute;
+        top: 30px;
+        left: 620px;
+        color: white;
+        visibility:hidden;
+    }
+    a {
+ background-color:transparent !important;
+ color: white;
+ text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+background-color:transparent !important;
+}
+
+.exp1{
+  position: absolute;
+      line-height: 1.5;
+        top: 200px;
+        left: 250px;
+        color: white;
+        font-size: 2rem;
+        visibility:hidden;
+    }
+
+.exp2{
+  position: absolute;
+      line-height: 1.5;
+        top: 200px;
+        left: 850px;
+        color: white;
+        font-size: 2rem;
+        visibility:hidden;
+    }
+.eheadi{
+  position: absolute;
+  top: 50px;
+  left: 900px;
+  visibility: hidden;
   
+
+}
+
+/* #ei:hover{
+  animation-name: eih;
+}
+@keyframes eih{
+  from{
+
+      }
+  to{transform: scaleX(320);
+      transform-origin:bottom left;
+  }
+  
+} */
+
+.exp3{
+  position: absolute;
+      line-height: 1.5;
+        top: 420px;
+        left: 250px;
+        color: white;
+        font-size: 2rem;
+        visibility:hidden;
+    }
+
+    .exp4{
+        position: absolute;
+            line-height: 1.5;
+              top: 600px;
+              left: 250px;
+              color: white;
+              font-size: 2rem;
+              visibility:hidden;
+          }
+
+
+
+    /* achievements */
+
+    .achievementss{
+        position: absolute;
+        top: 30px;
+        left: 620px;
+        color: white;
+        visibility:hidden;
+    }
+    .a1{
+position: absolute;
+    line-height: 1.5;
+      top: 200px;
+      left: 250px;
+      color: white;
+      font-size: 2rem;
+      visibility:hidden;
+  }
