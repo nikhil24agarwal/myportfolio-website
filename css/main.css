@@ -51,44 +51,46 @@
 width: 100px;
    height: 100px;
 }
-.gito{
-position: absolute;
-    top: 290px;
-    left: 750px;
-    width: 100px;
-   height: 100px;
-}
-.linkedino{
-position: absolute;
-    top: 290px;
-    left: 750px;
-    width: 100px;
-   height: 100px;
-}
+
 a{
    background-color: white;
 }
 
-.circle1{
-height: 5px;
-width: 5px;
-position:absolute;
-top: 690px;
-left:100px;
-border-radius: 50%;
-background-color: white;
-border-radius:50%;
-}
-.circle2{
-height: 5px;
-width: 5px;
-position:absolute;
-top: 690px;
-left:1400px;
-border-radius: 50%;
-background-color: white;
-border-radius:50%;
-}
+.gito{
+  position: absolute;
+      top: 640px;
+      left: 50px;
+      width: 100px;
+     height: 100px;
+  }
+  .linkedino{
+  position: absolute;
+      top: 640px;
+      left: 1355px;
+      width: 100px;
+     height: 100px;
+  }
+  .circle1{
+  height: 150px;
+  width: 150px;
+  position:absolute;
+  top: 610px;
+  left:25px;
+  border-radius: 50%;
+  background-color: white;
+  border-radius:50%;
+  }
+  .circle2{
+  height: 150px;
+  width: 150px;
+  position:absolute;
+  top: 610px;
+  left:1330px;
+  border-radius: 50%;
+  background-color: white;
+  border-radius:50%;
+  }
+  
 
 .aboutme #i1{
     
@@ -177,8 +179,8 @@ border-radius:50%;
           .Bachelors{
               color: #fff;
             position: absolute;
-              top: 400px;
-              left: 500px;
+              top: 420px;
+              left: 450px;
               line-height: 1.5;
               letter-spacing: 0.2rem;
               font-size: 1.9rem;
@@ -222,7 +224,7 @@ border-radius:50%;
           color: #fff;
         position: absolute;
           top: 200px;
-          left: 190px;
+          left: 350px;
           line-height: 1.5;
           letter-spacing: 0.1rem;
           font-size: 1.9rem;
@@ -239,7 +241,7 @@ border-radius:50%;
           background-color: white;
        
       }
-      @keyframes python{
+      /* @keyframes python{
         from{transform: scaleX(1);
             transform-origin:bottom left;
             }
@@ -247,15 +249,15 @@ border-radius:50%;
             transform-origin:bottom left;
         }
         
-      }
+      } */
 
       .fillp{
           background-color:orange;
           height: 20px;
           width: 1px;
-        animation-name: python;
+        /* animation-name: python; */
           animation-duration: 4s;
-          animation-fill-mode: forwards;
+          /* animation-fill-mode: forwards; */
           /* animation-iteration-count: 1; */
 
       }
@@ -265,7 +267,7 @@ border-radius:50%;
         color: #fff;
       position: absolute;
         top: 200px;
-        left: 700px;
+        left: 900px;
         line-height: 1.5;
         letter-spacing: 0.1rem;
         font-size: 1.9rem;
@@ -282,7 +284,7 @@ border-radius:50%;
         background-color: white;
      
     }
-    @keyframes java{
+    /* @keyframes java{
       from{transform: scaleX(1);
           transform-origin:bottom left;
           }
@@ -290,16 +292,16 @@ border-radius:50%;
           transform-origin:bottom left;
       }
       
-    }
+    } */
 
     .fillj{
         background-color:orange;
         height: 20px;
         width: 1px;
-      animation-name: java;
+      /* animation-name: java; */
         animation-duration: 4s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
+        /* animation-fill-mode: forwards; */
+        /* animation-iteration-count: 1; */
 
     }
 
@@ -313,7 +315,7 @@ border-radius:50%;
         color: #fff;
       position: absolute;
         top: 300px;
-        left: 190px;
+        left: 350px;
         line-height: 1.5;
         letter-spacing: 0.1rem;
         font-size: 1.9rem;
@@ -330,7 +332,7 @@ border-radius:50%;
         background-color: white;
      
     }
-    @keyframes MySql{
+    /* @keyframes MySql{
       from{transform: scaleX(1);
           transform-origin:bottom left;
           }
@@ -338,7 +340,7 @@ border-radius:50%;
           transform-origin:bottom left;
       }
       
-    }
+    } */
 
     .fillM{
         background-color:orange;
@@ -356,7 +358,7 @@ border-radius:50%;
       color: #fff;
     position: absolute;
       top: 300px;
-      left: 700px;
+      left: 900px;
       line-height: 1.5;
       letter-spacing: 0.1rem;
       font-size: 1.9rem;
@@ -373,7 +375,7 @@ border-radius:50%;
       background-color: white;
    
   }
-  @keyframes html{
+  /* @keyframes html{
     from{transform: scaleX(1);
         transform-origin:bottom left;
         }
@@ -381,7 +383,7 @@ border-radius:50%;
         transform-origin:bottom left;
     }
     
-  }
+  } */
 
   .fillh{
       background-color:orange;
@@ -407,7 +409,7 @@ border-radius:50%;
         color: #fff;
       position: absolute;
         top: 400px;
-        left: 190px;
+        left: 350px;
         line-height: 1.5;
         letter-spacing: 0.1rem;
         font-size: 1.9rem;
@@ -424,7 +426,7 @@ border-radius:50%;
         background-color: white;
      
     }
-    @keyframes css{
+    /* @keyframes css{
       from{transform: scaleX(1);
           transform-origin:bottom left;
           }
@@ -432,7 +434,7 @@ border-radius:50%;
           transform-origin:bottom left;
       }
       
-    }
+    } */
 
     .fillc{
         background-color:orange;
@@ -450,7 +452,7 @@ border-radius:50%;
       color: #fff;
     position: absolute;
       top: 400px;
-      left: 700px;
+      left: 900px;
       line-height: 1.5;
       letter-spacing: 0.1rem;
       font-size: 1.9rem;
@@ -467,7 +469,7 @@ border-radius:50%;
       background-color: white;
    
   }
-  @keyframes js{
+  /* @keyframes js{
     from{transform: scaleX(1);
         transform-origin:bottom left;
         }
@@ -475,9 +477,9 @@ border-radius:50%;
         transform-origin:bottom left;
     }
     
-  }
+  } */
 
-  .fillj{
+  .filljs{
       background-color:orange;
       height: 20px;
       width: 1px;
@@ -495,7 +497,7 @@ border-radius:50%;
         color: #fff;
       position: absolute;
         top: 500px;
-        left: 190px;
+        left: 350px;
         line-height: 1.5;
         letter-spacing: 0.1rem;
         font-size: 1.9rem;
@@ -512,7 +514,7 @@ border-radius:50%;
         background-color: white;
      
     }
-    @keyframes bs{
+    /* @keyframes bs{
       from{transform: scaleX(1);
           transform-origin:bottom left;
           }
@@ -520,7 +522,7 @@ border-radius:50%;
           transform-origin:bottom left;
       }
       
-    }
+    } */
 
     .fillbs{
         background-color:orange;
@@ -538,7 +540,7 @@ border-radius:50%;
       color: #fff;
     position: absolute;
       top: 500px;
-      left: 700px;
+      left: 900px;
       line-height: 1.5;
       letter-spacing: 0.1rem;
       font-size: 1.9rem;
@@ -555,7 +557,7 @@ border-radius:50%;
       background-color: white;
    
   }
-  @keyframes jq{
+  /* @keyframes jq{
     from{transform: scaleX(1);
         transform-origin:bottom left;
         }
@@ -563,7 +565,7 @@ border-radius:50%;
         transform-origin:bottom left;
     }
     
-  }
+  } */
 
   .filljq{
       background-color:orange;
@@ -589,7 +591,7 @@ border-radius:50%;
         color: #fff;
       position: absolute;
         top: 600px;
-        left: 190px;
+        left: 350px;
         line-height: 1.5;
         letter-spacing: 0.1rem;
         font-size: 1.9rem;
@@ -606,7 +608,7 @@ border-radius:50%;
         background-color: white;
      
     }
-    @keyframes njs{
+    /* @keyframes njs{
       from{transform: scaleX(1);
           transform-origin:bottom left;
           }
@@ -614,7 +616,7 @@ border-radius:50%;
           transform-origin:bottom left;
       }
       
-    }
+    } */
 
     .fillnjs{
         background-color:orange;
@@ -632,7 +634,7 @@ border-radius:50%;
       color: #fff;
     position: absolute;
       top: 600px;
-      left: 700px;
+      left: 900px;
       line-height: 1.5;
       letter-spacing: 0.1rem;
       font-size: 1.9rem;
@@ -649,7 +651,7 @@ border-radius:50%;
       background-color: white;
    
   }
-  @keyframes ci{
+  /* @keyframes ci{
     from{transform: scaleX(1);
         transform-origin:bottom left;
         }
@@ -657,7 +659,7 @@ border-radius:50%;
         transform-origin:bottom left;
     }
     
-  }
+  } */
 
   .fillci{
       background-color:orange;
@@ -694,63 +696,12 @@ background-color:transparent !important;
 .exp1{
   position: absolute;
       line-height: 1.5;
-        top: 200px;
-        left: 250px;
+        top: 130px;
+        left: 200px;
         color: white;
         font-size: 2rem;
         visibility:hidden;
     }
-
-.exp2{
-  position: absolute;
-      line-height: 1.5;
-        top: 200px;
-        left: 850px;
-        color: white;
-        font-size: 2rem;
-        visibility:hidden;
-    }
-.eheadi{
-  position: absolute;
-  top: 50px;
-  left: 900px;
-  visibility: hidden;
-  
-
-}
-
-/* #ei:hover{
-  animation-name: eih;
-}
-@keyframes eih{
-  from{
-
-      }
-  to{transform: scaleX(320);
-      transform-origin:bottom left;
-  }
-  
-} */
-
-.exp3{
-  position: absolute;
-      line-height: 1.5;
-        top: 420px;
-        left: 250px;
-        color: white;
-        font-size: 2rem;
-        visibility:hidden;
-    }
-
-    .exp4{
-        position: absolute;
-            line-height: 1.5;
-              top: 600px;
-              left: 250px;
-              color: white;
-              font-size: 2rem;
-              visibility:hidden;
-          }
 
 
 
@@ -767,8 +718,32 @@ background-color:transparent !important;
 position: absolute;
     line-height: 1.5;
       top: 200px;
-      left: 250px;
+      left: 200px;
       color: white;
       font-size: 2rem;
       visibility:hidden;
   }
+/* tyopewriter Animation*/
+
+.anim-typewriter {
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+        width: 0;
+  }
+  to {
+        width: 14.6em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+        border-right-color: white;
+  }
+  to {
+        border-right-color: transparent;
+  }
+}

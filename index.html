@@ -13,6 +13,8 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/click.js">
   </script>
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <style>
       @keyframes linemove{
         from{transform: scaleX(1);
@@ -30,7 +32,7 @@
       }
       .aboutmec{
           position: absolute;
-          top: 30px;
+          top: 100px;
           left: 620px;
           color: white;
           visibility:hidden;
@@ -41,20 +43,32 @@
     
       .aboutmeh{
         position: absolute;
-          top: 200px;
-          left: 170px;
+          top: 230px;
+          left: 140px;
           line-height: 1.5;
-          font-size: 3rem;
+          font-size: 2.5rem;
           visibility: hidden;
       }
 
-     
-
-
-
-     
+      /* typing effect */
+      .line {
+      position:absolute;
+      top: 150px;
+      left: 100px;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+      width: 16em;
       
-    
+      border-right: 2px solid white;
+      font-size: 300%;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+      visibility: visible;
+}
+
+
+
+
       
   </style>
 </head>
@@ -69,7 +83,8 @@
     setInterval(updateGradient,9);</script>
     </section>
     </div>
-    <!-- <img class="myimage animate__animated  animate__heartBeat animate__delay-1s" src="mine.png">
+    <p class="line anim-typewriter">Hey this is Nikhil Agarwal.</p>
+    <img class="myimage animate__animated  animate__heartBeat animate__delay-1s" src="mine.png">
     
     
     <div class="aboutme">
@@ -115,22 +130,27 @@
 
     </div>
 
-    <a href="https://github.com/nikhil24agarwal"><img class="gito" src="github-brands.svg"></a>
-    <a href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  class="linkedino" src="linkedin-brands.svg"></a> -->
+    <a target="_blank" href="https://github.com/nikhil24agarwal"><img class="gito" src="github-brands.svg"></a>
+    <a target="_blank"  href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  class="linkedino" src="linkedin-brands.svg"></a>
 
 
 
     <!-- content -->
 <!-- about me  -->
-<div class="aboutmec">
-    <h1 class="cheading" style="margin-bottom: 0; ">About me</h1>
-    <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
-</div>
-<div class="aboutmeh" style="color: #fff;">
-    Hey, I am Nikhil Agarwal persuing Btech(2018-22) from Bennett University.<br>
-    I am an average programmer with good problem solving skills.<br>
-    I believe in living life in flow and learning from each moment of it. 
-</div>
+
+    <div class="aboutmec ">
+        <h1 class="cheading" style="margin-bottom: 0  ">About me</h1>
+        <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
+    </div>
+    <div class="aboutmeh" style="color: white; border:2px solid white; padding:50px 20px 50px 20px"   >
+        Hey, I am Nikhil Agarwal persuing Btech(2018-22) from Bennett University.<br>
+        I am an average programmer with good problem solving skills.<br>
+        I believe in living life in flow and learning from each moment of it. 
+    </div>
+
+
+
+
 
 
    <!-- education  -->
@@ -138,21 +158,21 @@
     <h1 class="cheading" style="margin-bottom: 0; ">Education</h1>
     <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
 </div>
-<div class="X">
+<div class="X" style=" border:2px solid white; padding:20px 20px; ">
     <b style="font-size: 2.5rem;">X (Secondary)</b><br>
-    The Rajasthan International School<br>
+    <a href="http://therajasthanschool.edu.in/" >The Rajasthan International School</a><br>
     CGPA : 9.8<br>
     <!-- Website:<a href="http://therajasthanschool.edu.in/">http://therajasthanschool.edu.in/</a>  -->
 </div>
-<div class="XII">
+<div class="XII" style=" border:2px solid white;padding:20px 20px;">
     <b style="font-size: 2.5rem;">XII (Primary)</b><br>
-    S. R. Public Sen. Sec. School<br>
+    <a href="https://www.srpublicschool.edu.in/" >S. R. Public Sen. Sec. School</a> <br>
     Percentage(PCM) : 89%<br>
     <!-- Website:<a href="https://www.srpublicschool.edu.in/">https://www.srpublicschool.edu.in/</a>  -->
 </div>
-<div class="Bachelors">
+<div class="Bachelors" style=" border:2px solid white;padding:20px 20px;" >
     <b style="font-size: 2.5rem;">Bachelors</b><br>
-    Bennett University(Times of India Group)<br>
+    <a href="https://www.srpublicschool.edu.in/">Bennett University(Times of India Group)</a><br>
     Last SGPA:9.82<br>
     Current CGPA: 8.72<br>
     <!-- Website:<a href="https://www.srpublicschool.edu.in/">https://www.srpublicschool.edu.in/</a>  -->
@@ -162,9 +182,10 @@
    <!-- skills  -->
 
 <div class="skillss">
-    <h1 class="cheading" style="margin-bottom: 0; ">Skills</h1>
+    <h1 class="cheading" style="margin-bottom: 0; "><b>Skills</b></h1>
     <div class="hrlinee" style="background-color: white;height:5px;width:20px ;"></div>
 </div>
+
 <div class="python">
     <div class="pythonh">Python</div>
     <div class="pythonb">
@@ -199,7 +220,7 @@
 <div class="js">
     <div class="jsh">JAVASCRIPT</div>
     <div class="jsb">
-        <div class="fillj"></div>
+        <div class="filljs"></div>
     </div>
 </div>
 <div class="bs">
@@ -228,6 +249,7 @@
 </div>
 
 
+
             <!-- experience  -->
 
 <div class="experiencee">
@@ -235,28 +257,15 @@
         <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
 </div>
 <div class="exp1">
-    <div class="exp1h">Web-Developer Intern at Xpert Finance</div>
-    <div class="exp1t">6-june 2020 to present</div>
-    <div> <a href="https://xpertfinance.in/">https://xpertfinance.in/</a></div>
+    <ul>
+        <li>Web-Developer Intern at Xpert Finance, 6-june 2020 to present<br><a href="https://xpertfinance.in/">https://xpertfinance.in/</a> </li>
+        <li>Events Head at Association for Computing Machinery(ACM) at Bennett university, July-2019 to present<br> <a href="http://bennett.acm.org/">http://bennett.acm.org/</a> </li>
+        <li>Research work under Dr Vijay Bahot and Dr Lakhan Sharma on topic MI(Myocardial Infarction) detection using Machine learning <br>July 2020 to present </li>
+        <li>Organiser BU'HACK and Libquest, annual hackathon and annual library event of Bennett University<br> <a href="https://buhack.tech/">https://buhack.tech/</a></li>
+    </ul>
+  
 </div>
-<div class="exp2">
-    <div class="exp2h"> <span id="ei">Events Head</span> at Association for Computing Machinery(ACM)
-                         at Bennett university</div>
-    <div class="exp2t">July-2019 to present</div>
-    <div> <a href="http://bennett.acm.org/">http://bennett.acm.org/</a></div>
-</div>
-    <div class="eheadi"><img style="height: 150px; width: 150px ; border-radius: 10%;" src="ehead.jpg"></div>
-<div class="exp3">
-        <div class="exp3h">Research work under Dr Vijay Bahot and Dr Lakhan Sharma</div>
-        <div class="exp3t">MI(Myocardial Infarction) detection using Machine learning</div>
-        <div>July 2020 to present</div>
-</div> 
 
-<div class="exp4">
-        <div class="exp4h">Organiser BU'HACK and Libquest</div>
-        <div class="exp4t">Annual hackathon and annual library event of Bennett University</div>
-        <div> <a href="https://buhack.tech/">https://buhack.tech/</a></div>
-</div>    
 
 
    <!-- Achievements  -->
@@ -265,18 +274,14 @@
     <div class="hrline" style="background-color: white;height:5px;width:20px ;"></div>
 </div>
 <div class="a1">
-    <div class="a1h">Won 3rd prize at HACKVSIT-2020 </div>
+    <div class="a1h"><ul style="margin-bottom: 0;"><li>Won 3rd prize at HACKVSIT-2020 </li></ul></div>
     <div class="a1t" style="font-size: 1.5rem;">It is annual hackathon organised by Vivekananda Institute of Professional Studies, 
         New Delhi where 100+ teams all over india participated sponsored by MLH(Major league hacking)</div>
     <div style="font-size: 1.5rem;"> <a href="https://www.instagram.com/p/B8wBfmyJFLb/?utm_source=ig_web_copy_link">https://www.instagram.com/p/B8wBfmyJFLb/?utm_source=ig_web_copy_link</a></div>
 </div>
 
     <!-- projects   -->
-
-
-
-
-
+   
 
 
 
