@@ -61,6 +61,10 @@ $("#i1").click(function(){
     $(".exp4").css({"visibility":"hidden"});
     $(".achievementss").css({"visibility":"hidden"});
     $(".a1").css({"visibility":"hidden"});
+    $(".projectss").css({"visibility":"hidden"});
+    $(".webd").css({"visibility":"hidden"});
+    $(".sep").css({"visibility":"hidden"});
+
 
             
 
@@ -102,7 +106,9 @@ $("#i1").click(function(){
                $(".achievementss").css({"visibility":"hidden"});
                $(".a1").css({"visibility":"hidden"});
            
-                       
+               $(".projectss").css({"visibility":"hidden"});
+               $(".webd").css({"visibility":"hidden"});
+               $(".sep").css({"visibility":"hidden"});
            
                $(".aboutmec").css({"visibility":"hidden"});
                $(".aboutmeh").css({"visibility":"hidden"});
@@ -141,7 +147,9 @@ $("#i1").click(function(){
                $(".aboutmec").css({"visibility":"hidden"});
                $(".aboutmeh").css({"visibility":"hidden"});
 
-
+               $(".projectss").css({"visibility":"hidden"});
+               $(".webd").css({"visibility":"hidden"});
+               $(".sep").css({"visibility":"hidden"});
        
                $(".educationn").css({"visibility":"hidden"});
                $(".X").css({"visibility":"hidden"});
@@ -207,7 +215,9 @@ $("#i1").click(function(){
     $(".njs").css({"visibility":"hidden"});
        
     $(".ci").css({"visibility":"hidden"});
-    
+    $(".projectss").css({"visibility":"hidden"});
+    $(".webd").css({"visibility":"hidden"});
+    $(".sep").css({"visibility":"hidden"});
   
     $(".achievementss").css({"visibility":"hidden"});
     $(".a1").css({"visibility":"hidden"});
@@ -281,6 +291,11 @@ $("#i1").click(function(){
                $(".a1").css({"visibility":"hidden"});
 
 
+               $(".projectss").css({"visibility":"visible"});
+               $(".webd").css({"visibility":"visible"});
+               $(".sep").css({"visibility":"visible"});
+
+
    });
    $("#i6").click(function(){
     image();
@@ -318,7 +333,9 @@ $("#i1").click(function(){
     $(".exp3").css({"visibility":"hidden"});
     $(".exp4").css({"visibility":"hidden"});
   
-
+    $(".projectss").css({"visibility":"hidden"});
+    $(".webd").css({"visibility":"hidden"});
+    $(".sep").css({"visibility":"hidden"});
             
 
     $(".aboutmec").css({"visibility":"hidden"});
