@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="icon" href="favicon.ico">
     <script src="https://kit.fontawesome.com/5696cdf38b.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Nikhil Agarwal</title>
       <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
@@ -87,6 +88,87 @@
     visibility:hidden;
 
 }
+.contacth{
+    visibility: hidden;
+
+}
+
+.contacth ul{
+	position: absolute;
+	top: 380px;
+	left: 450px;
+	transform: translate(-50%,-50%);
+    display: flex;
+    visibility: hidden;
+}
+.contacth ul li{
+	list-style: none;
+    margin: 0 15px;
+    visibility: hidden;
+    
+}
+
+.contacth ul li a{
+	width: 140px;
+	height: 140px;
+	background-color: #fff !important;
+	text-align: center;
+	line-height: 80px;
+	font-size: 35px;
+	margin: 100px 50px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #fff;
+    z-index: 1;
+    
+}
+
+.contacth ul li a .icon {
+    position: relative;
+    margin-top: 32px;
+    color: #262626;
+	transition: .5s;
+	z-index: 3;
+}
+.contacth ul li a:hover .icon {
+	color: #fff;
+	transform: rotateY(360deg);
+}
+.contacth ul li a:before{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ff0;
+	transition: .5s;
+	z-index: 2;
+}
+
+.contacth ul li a:hover:before {
+	top:0;
+}
+
+.contacth ul li:nth-child(1) a:before {
+	background:#4078c0;
+}
+
+.contacth ul li:nth-child(2) a:before {
+	background:#3b5999;
+}
+
+.contacth ul li:nth-child(3) a:before {
+	background:linear-gradient(#f702ff,#ffa805);
+}
+.contacth ul li:nth-child(4) a:before {
+	background:#0077b5;
+}
+
+
+
 
 
 
@@ -105,34 +187,46 @@
     setInterval(updateGradient,9);</script>
     </section>
     </div>
-    <p class="line anim-typewriter">Hey this is Nikhil Agarwal.</p>
-    <img class="myimage animate__animated  animate__heartBeat animate__delay-1s" src="mine.png">
+    <p class="line anim-typewriter">Hey, this is Nikhil Agarwal.</p>
+    <img class="myimage animate__animated  animate__heartBeat animate__delay-1s" src="min.png">
     
     
     <div class="aboutme">
-        <div id="i1"></div>
+        <div id="i1" ><i style="margin-left: 40px;margin-top: 30px;" class="fas fa-home fa-5x"></i>
+            <br><span style="color: #343a40;font-weight: 1000;font-size: 30px;margin-left: 18px;">
+            About Me</span></div>
     </div>
 
 
     <div class="education" >
-        <div id="i2"></div> 
+        <div id="i2"><i style="margin-left: 40px;margin-top: 30px;" class="fas fa-graduation-cap fa-5x"></i>
+            <br><span style="color: #343a40;font-weight: 1000;font-size: 30px;margin-left: 18px;">
+            Education</span></div>
 
     </div>
 
     <div class="skills" >
-        <div id="i3"></div>
+        <div id="i3">
+            <!-- <i style="margin-left: 40px;margin-top: 30px;" class="fad fa-lightbulb-on fa-5x"></i> -->
+            <img src="s.png" style="margin-left: 35px;margin-top: 20px; height: 110px; width:120px;"> 
+            <br><span style="color: #343a40;font-weight: 1000;font-size: 30px;margin-left: 60px;">
+            Skills</span></div>
         
     </div>
 
 
     <div class="experience" >
-        <div id="i4"></div>
-
+        <div id="i4"><i style="margin-left: 50px;margin-top: 30px;margin-bottom: 0;" class="fas fa-briefcase fa-5x"></i>
+            <br><span style="color: #343a40;font-weight: 1000;font-size: 30px;margin-left: 15px;">
+            Experience</span></div>
     </div>
 
         
      <div class="projects">
-            <div id=i5></div>
+            <div id=i5>
+                <img src="p.jpg" style="margin-left: 35px;margin-top: 20px; height: 90px; width:100px;"> 
+            <br><span style="color: #343a40;font-weight: 1000;font-size: 30px;margin-left: 35px; margin-top: 0;">
+            Projects</span></div>
      
         </div>
     
@@ -140,20 +234,31 @@
 
 
     <div class="achievements" >
-        <div id=i6></div>
+        <div id=i6><i style="margin-left: 45px;margin-top: 30px;" class="fas fa-trophy fa-5x"></i>
+            <br><span style="color: #343a40;font-weight: 1000;font-size: 24px;margin-left: 15px;">
+            Achievements</span></div>
     </div>
 
 
     </div>
-    <div class="circle1">
+    <div class="circle1 ">
+    <a target="_blank" href="https://github.com/nikhil24agarwal"><img style="height: 90px; width: 90px; margin-left: 20px; margin-top: 20px;" src="github-brands.svg"></a>
 
     </div>
-    <div class="circle2">
+    <div class="circle3">
+        <a target="_blank"><img class="contactt"  style="height: 80px; width: 80px; margin-left: 25px; margin-top:25px;margin-bottom: 0;" src="contact.svg"></a>
+        <!-- <span style="color: #343a40;font-weight: 1000;font-size: 20px;margin-left: 20px; margin-bottom: 10px;">Contact</span> -->
 
     </div>
+    <div class="circle2  ">
+        <a target="_blank"  href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  style="height: 80px; width: 80px; margin-left: 25px; margin-top:25px;" src="linkedin-brands.svg"></a>
 
-    <a target="_blank" href="https://github.com/nikhil24agarwal"><img class="gito" src="github-brands.svg"></a>
-    <a target="_blank"  href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  class="linkedino" src="linkedin-brands.svg"></a>
+    </div>
+    <!-- <div class="circle2 animate__animated  animate__shakeX animate__delay-1s ">
+        <a target="_blank"  href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><img  style="height: 80px; width: 80px; margin-left: 25px; margin-top:25px;" src="linkedin-brands.svg"></a>
+
+    </div> -->
+
 
 
 
@@ -182,19 +287,19 @@
 </div>
 <div class="X" style=" border:2px solid white; padding:20px 20px; ">
     <b style="font-size: 2.5rem;">X (Secondary)</b><br>
-    <a href="http://therajasthanschool.edu.in/" >The Rajasthan International School</a><br>
+    <a target="_blank" href="http://therajasthanschool.edu.in/" >The Rajasthan International School</a><br>
     CGPA : 9.8<br>
     <!-- Website:<a href="http://therajasthanschool.edu.in/">http://therajasthanschool.edu.in/</a>  -->
 </div>
 <div class="XII" style=" border:2px solid white;padding:20px 20px;">
     <b style="font-size: 2.5rem;">XII (Primary)</b><br>
-    <a href="https://www.srpublicschool.edu.in/" >S. R. Public Sen. Sec. School</a> <br>
+    <a target="_blank" href="https://www.srpublicschool.edu.in/" >S. R. Public Sen. Sec. School</a> <br>
     Percentage(PCM) : 89%<br>
     <!-- Website:<a href="https://www.srpublicschool.edu.in/">https://www.srpublicschool.edu.in/</a>  -->
 </div>
 <div class="Bachelors" style=" border:2px solid white;padding:20px 20px;" >
     <b style="font-size: 2.5rem;">Bachelors</b><br>
-    <a href="https://www.srpublicschool.edu.in/">Bennett University(Times of India Group)</a><br>
+    <a target="_blank" href="https://www.srpublicschool.edu.in/">Bennett University(Times of India Group)</a><br>
     Last SGPA:9.82<br>
     Current CGPA: 8.72<br>
     <!-- Website:<a href="https://www.srpublicschool.edu.in/">https://www.srpublicschool.edu.in/</a>  -->
@@ -280,10 +385,10 @@
 </div>
 <div class="exp1">
     <ul>
-        <li>Web-Developer Intern at Xpert Finance, 6-june 2020 to present<br><a href="https://xpertfinance.in/">https://xpertfinance.in/</a> </li>
-        <li>Events Head at Association for Computing Machinery(ACM) at Bennett university, July-2019 to present<br> <a href="http://bennett.acm.org/">http://bennett.acm.org/</a> </li>
+        <li>Web-Developer Intern at Xpert Finance, 6-june 2020 to present<br><a target="_blank" href="https://xpertfinance.in/">https://xpertfinance.in/</a> </li>
+        <li>Events Head at Association for Computing Machinery(ACM) at Bennett university, July-2019 to present<br> <a target="_blank" href="http://bennett.acm.org/">http://bennett.acm.org/</a> </li>
         <li>Research work under Dr Vijay Bahot and Dr Lakhan Sharma on topic MI(Myocardial Infarction) detection using Machine learning <br>July 2020 to present </li>
-        <li>Organiser BU'HACK and Libquest, annual hackathon and annual library event of Bennett University<br> <a href="https://buhack.tech/">https://buhack.tech/</a></li>
+        <li>Organiser BU'HACK and Libquest, annual hackathon and annual library event of Bennett University<br> <a target="_blank" href="https://buhack.tech/">https://buhack.tech/</a></li>
     </ul>
   
 </div>
@@ -299,7 +404,7 @@
     <div class="a1h"><ul style="margin-bottom: 0;"><li>Won 3rd prize at HACKVSIT-2020 </li></ul></div>
     <div class="a1t" style="font-size: 1.5rem;">It is annual hackathon organised by Vivekananda Institute of Professional Studies, 
         New Delhi where 100+ teams all over india participated sponsored by MLH(Major league hacking)</div>
-    <div style="font-size: 1.5rem;"> <a href="https://www.instagram.com/p/B8wBfmyJFLb/?utm_source=ig_web_copy_link">https://www.instagram.com/p/B8wBfmyJFLb/?utm_source=ig_web_copy_link</a></div>
+    <div style="font-size: 1.5rem;"> <a target="_blank" href="https://www.instagram.com/p/B8wBfmyJFLb/?utm_source=ig_web_copy_link">https://www.instagram.com/p/B8wBfmyJFLb/?utm_source=ig_web_copy_link</a></div>
 </div>
 
     <!-- projects   -->
@@ -309,22 +414,22 @@
     </div>
     <div class="webd" style="border: 2px solid white;padding:10px 10px; font-size: 35px;">
         <ul alink="red" style="color: white;">
-            <li><a href="https://github.com/nikhil24agarwal/Covid-19">Covid-19</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/Covid-19">Covid-19</a></li>
             <!-- <li>Virtual lab</li> -->
-            <li><a href="https://github.com/nikhil24agarwal/weather-in-your-city" target="_blank"  alink="white" vlink="red">Weather in your city</a></li>
-            <li><a href="https://github.com/nikhil24agarwal/contact-me">Contact-me</a></li>
-            <li><a href="https://github.com/nikhil24agarwal/daily-blog">Daily-blog</a></li>
-            <li><a href="https://nikhil24agarwal.github.io/Ownwebsite-template-using-HTML-and-CSS/">CV template(only using HTML)</a></li>
-            <li><a href="https://nikhil24agarwal.github.io/CV-using-only-HTML/">CV template(CSS&HTML)</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/weather-in-your-city" target="_blank"  alink="white" vlink="red">Weather in your city</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/contact-me">Contact-me</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/daily-blog">Daily-blog</a></li>
+            <li><a target="_blank" href="https://nikhil24agarwal.github.io/Ownwebsite-template-using-HTML-and-CSS/">CV template(CSS and HTML)</a></li>
+            <li><a target="_blank" href="https://nikhil24agarwal.github.io/CV-using-only-HTML/">CV template(only using HTML)</a></li>
         </ul>
     </div>
     <div class="sep" style="border: 2px solid white;padding:10px 10px; font-size: 35px;">
         <ul style="color: white;">
-            <li><a href="https://github.com/nikhil24agarwal/Safety-One">Safety-One</a></li>
-            <li><a href="https://github.com/nikhil24agarwal/Cab-buddy">Cab-buddy</a></li>
-            <li><a href="https://github.com/nikhil24agarwal/Static_routing">Static Routing</a></li>
-            <li><a href="https://github.com/nikhil24agarwal/Dynamic_Routing">Dynamic Routing Protocols</a></li>
-            <li><a href="https://github.com/nikhil24agarwal/OCR-tesseract">OCR using tesseract</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/Safety-One">Safety-One</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/Cab-buddy">Cab-buddy</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/Static_routing">Static Routing</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/Dynamic_Routing">Dynamic Routing Protocols</a></li>
+            <li><a target="_blank" href="https://github.com/nikhil24agarwal/OCR-tesseract">OCR using tesseract</a></li>
             <!-- <li>daily-blog</li>
             <li>CV template(only using HTML)</li>
             <li>CV template(CSS&HTML)</li> -->
@@ -332,6 +437,28 @@
     </div>
 
 
+    <!-- contact me  -->
+<div class="contacth" style="position: absolute; top: 160px;left: 270px;letter-spacing: 1.8px;">
+    <span class="a"style="color: #fff; font-size: 60px;">Feel free to connect<br></span>
+    <span  class="b" style="color: #fff; font-size: 60px;">Mail : <a href="mailto:nikhilagarwal82537@gmail.com">nikhilagarwal82537@gmail.com</a></span><br>
+    <span class="c" style="color: #fff; font-size: 60px;">Contact Number: +91-8384962437<br></span>
+    <ul >
+       
+        <li>
+            <a target="_blank" href="https://github.com/nikhil24agarwal"><i class="fa fa-github icon fa-2x"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.facebook.com/nikhil.agarwal.353"><i class="fa fa-facebook-f icon fa-2x"></i></a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="https://www.instagram.com/nikhilagarwal07/"><i class="fa fa-instagram icon fa-2x"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.linkedin.com/in/nikhil-agarwal-4881a9195/"><i class="fab fa-linkedin icon fa-2x"></i></a>
+        </li>
+    </ul>
+</div>
 
 
 

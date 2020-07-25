@@ -56,7 +56,7 @@ a{
    background-color: white;
 }
 
-.gito{
+/* .gito{
   position: absolute;
       top: 640px;
       left: 50px;
@@ -69,10 +69,10 @@ a{
       left: 1355px;
       width: 100px;
      height: 100px;
-  }
+  } */
   .circle1{
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   position:absolute;
   top: 610px;
   left:25px;
@@ -81,14 +81,26 @@ a{
   border-radius:50%;
   }
   .circle2{
-  height: 150px;
-  width: 150px;
+    height: 130px;
+    width: 130px;
+    position:absolute;
+    top: 610px;
+    left:170px;
+    border-radius: 50%;
+    background-color: white;
+    border-radius:50%;
+    /* visibility: hidden; */
+    }
+  .circle3{
+  height: 130px;
+  width: 130px;
   position:absolute;
   top: 610px;
-  left:1330px;
+  left:1360px;
   border-radius: 50%;
   background-color: white;
   border-radius:50%;
+  /* visibility: hidden; */
   }
   
 
@@ -735,7 +747,7 @@ position: absolute;
         width: 0;
   }
   to {
-        width: 14.6em;
+        width: 15.2em;
   }
 }
 
