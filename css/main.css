@@ -304,13 +304,8 @@ a{
   .arrow{
       transform: translate(200px,200px);
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: black;
-    }
-  }
-  
 
+ 
 
         /* education 0*/
 
