@@ -1,5 +1,12 @@
-$("document").ready(function(){  
+var click=1;
+
+
+
+$("document").ready(function(){
+ 
     $(".myimage").click(function(){
+      if(click %2 ==1){
+        console.log("odd");
             $(".aboutme").css({"transform":"translate(200px,-200px)","transition-duration":"1s","transition-delay":"0.2s"});
             $(".education").css({"transform":"translateX(350px)","transition-duration":"1s","transition-delay":"0.3s"});
             $(".skills").css({"transform":"translate(200px,200px)","transition-duration":"1s","transition-delay":"0.4s"});
@@ -9,14 +16,73 @@ $("document").ready(function(){
             $(".line").css({"visibility":"hidden"})
             $(".circle2").css({"transform":"translateX(1190px)","transition-duration":"1s","transition-delay":"0.8s"});
             $(".circle3").css({"transform":"translateY(-580px)","transition-duration":"1s","transition-delay":"0.8s"});
+            click=click+1
+      }
+      else{
+        console.log("even");
+        $(".myimage").css({"transform":"scale(1,1) translate(1px,1px)","transition-duration":".1s"});
+        $(".aboutme").css({"transform":"translate(200px,-200px)","transition-duration":"1s","transition-delay":"0.2s"});
+        $(".education").css({"transform":"translateX(350px)","transition-duration":"1s","transition-delay":"0.3s"});
+        $(".skills").css({"transform":"translate(200px,200px)","transition-duration":"1s","transition-delay":"0.4s"});
+        $(".experience").css({"transform":"translate(-200px,200px)","transition-duration":"1s","transition-delay":"0.5s"});
+        $(".projects").css({"transform":"translateX(-350px)","transition-duration":"1s","transition-delay":"0.6s"});
+        $(".achievements").css({"transform":"translate(-200px,-200px)","transition-duration":"1s","transition-delay":"0.7s"});
+        $(".line").css({"visibility":"hidden"})
+        $(".circle2").css({"transform":"translateX(1190px)","transition-duration":"1s","transition-delay":"0.8s"});
+        $(".circle3").css({"transform":"translateY(-580px)","transition-duration":"1s","transition-delay":"0.8s"});
+        click=click+1
+
+
+        // for hiding
+        $(".educationn").css({"visibility":"hidden"});
+               $(".X").css({"visibility":"hidden"});
+                  
+    $(".XII").css({"visibility":"hidden"});
+    $(".Bachelors").css({"visibility":"hidden"});
+    $(".skillss").css({"visibility":"hidden"});
+    $(".python").css({"visibility":"hidden"});   
+    $(".java").css({"visibility":"hidden","animation-name":"java","animation-iteration-count":"infinite"});
+    $(".MySql").css({"visibility":"hidden"});   
+    $(".html").css({"visibility":"hidden"});
+    $(".css").css({"visibility":"hidden"});   
+    $(".js").css({"visibility":"hidden"});
+    $(".bs").css({"visibility":"hidden"});   
+    $(".jq").css({"visibility":"hidden"});
+    $(".njs").css({"visibility":"hidden"});
+       
+    $(".ci").css({"visibility":"hidden"});
+    
+    $(".experiencee").css({"visibility":"hidden"});
+    $(".exp1").css({"visibility":"hidden"});
+    $(".exp2").css({"visibility":"hidden"});
+    $(".exp3").css({"visibility":"hidden"});
+    $(".exp4").css({"visibility":"hidden"});
+    $(".achievementss").css({"visibility":"hidden"});
+    $(".a1").css({"visibility":"hidden"});
+    $(".projectss").css({"visibility":"hidden"});
+    $(".webd").css({"visibility":"hidden"});
+    $(".sep").css({"visibility":"hidden"});
+
+
+            
+
+    $(".aboutmec").css({"visibility":"hidden"});
+    $(".aboutmeh").css({"visibility":"hidden"});
+
+
+   
+
+      }
+          });
+    
             // $(".circle3").css({"transform":"translate(-700px,-150px) scale(0.3,0.3)","transition-duration":"1.5s"});
         //      $(".gito").css({"transform":"translate(600px,350px)","transition-duration":"1.5s","transition-delay":"3s"});
         //     $(".linkedino").css({"transform":"translate(-700px,350px)","transition-duration":"1.5s","transition-delay":"2.5s"});
         //  $(".circle1").css({"transform":"scale(30, 30)","transition-duration":"1.5s","transition-delay":"4.5s"});
         //  $(".circle2").css({"transform":"scale(30, 30)","transition-duration":"1.5s","transition-delay":"4.5s"});
+    
 
-
-    });
+    
 
          
 $("#i1").click(function(){
