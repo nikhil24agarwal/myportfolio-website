@@ -16,6 +16,7 @@ $("document").ready(function(){
             $(".line").css({"visibility":"hidden"})
             $(".circle2").css({"transform":"translateX(1190px)","transition-duration":"1s","transition-delay":"0.8s"});
             $(".circle3").css({"transform":"translateY(-580px)","transition-duration":"1s","transition-delay":"0.8s"});
+            $(".ii").css({"visibility":"hidden"})
             click=click+1
       }
       else{
